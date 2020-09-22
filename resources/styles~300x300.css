@@ -1,0 +1,42 @@
+.background {
+  viewport-fill: black;
+}
+
+#timeLabel {
+  font-size: 120;
+  font-family: Seville-Book-Condensed;
+  text-length: 50;
+  text-anchor: middle;
+  fill: aqua;
+}
+
+#dateLabel {  
+  font-size: 25;
+  text-length: 50;
+  text-anchor: middle;
+  fill: aqua;
+  font-family: Colfax-Medium;
+}
+
+#heartrateLabel {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 3;
+  fill: white;
+}
+
+#batteryLabel {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 32;
+  fill: white;
+}
+
+
+#stepsLabel {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 10;
+  fill: white;
+}
+

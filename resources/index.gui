@@ -1,0 +1,47 @@
+<svg>
+  
+  <image id = "albumcover" href="Icons/WBCover.png" x="0%" y="0%" />
+  
+  <!--stuff on the top (battery, steps, heart rate)-->
+    <section id="topstats" width="100%" height="8%" x="0" y="0">
+
+      <!--battery (left)-->
+      <text id="batteryLabel" x="2%" y="75%"/>
+      <image id="batteryIcon" x="$+3" y="16%" href="icons/battery.png" width="35" height="16">
+        <rect id="batteryLevel" x="4" y="4" height="7" /> <!--don't change this position bc it's the position inside the icon-->
+      </image>  
+
+      <!--steps (center)-->
+      <image id="stepsIcon" x="42%" y="16%" href="Icons/stepsIcon_whitesmall.png" width="20" height="15" fill="white" />
+      <text id="stepsLabel" x="$+4" y="75%"/>
+
+      <!--heart rate (right)-->
+      <image id="heartrateIcon" x="78%" y="15%" href="Icons/heartIcon.png" width="16" height="16" fill="white"/>
+      <text id="heartrateLabel" x="$+5" y="75%" />
+
+    </section>
+
+    <line x1="0%" y1="$+4" x2="100%" y2="$" fill="white" stroke-width="1" /> <!--end line-->
+  
+  <!--time-->    
+    <svg>
+      <image id="timeH1" x="3%" y="14%" width="28" height="60" href="Numbers/HozFont/0.png" fill="mediumturquoise"/> <!-- 140 x 300 -->
+      <image id="timeH2" x="$-5" y="14%" width="28" height="60" href="Numbers/HozFont/0.png" fill="mediumturquoise"/>
+      <image id="timeC" x="$-10" y="14%" width="28" height="60" href="Numbers/HozFont/Colon.png" fill="mediumturquoise"/>
+      <image id="timeM1" x="$-10" y="14%" width="28" height="60" href="Numbers/HozFont/0.png" fill="mediumturquoise"/>
+      <image id="timeM2" x="$-5" y="14%" width="28" height="60" href="Numbers/HozFont/0.png" fill="mediumturquoise"/> <!--#49A7A7-->
+    </svg>
+    
+  <!-- Date -->
+    <svg>
+      <image id="Days" x="30%" y="72%" width="100" height="100" href="Days/Sat.png" fill="mediumturquoise"/> <!-- 200 x 200 -->
+      <image id="Comma" x="$-98" y="72%" width="100" height="100" href="Days/Comma.png" fill="mediumturquoise"/> 
+      <image id="Date1s" x="$-25" y="80%" width="38" height="38" href="Numbers/1.png" fill="mediumturquoise"/> <!-- 300 x 300 -->
+      <image id="Date2s" x="$-15" y="79%" width="38" height="38" href="Numbers/7.png" fill="mediumturquoise"/> 
+      <image id="Months" x="$-15" y="68%" width="110" height="110" href="Months/Mar.png" fill="mediumturquoise"/> 
+      <image id="Exlamation" x="$-130" y="60%" width="135" height="155" href="Months/Exclamation.png" fill="mediumturquoise"/> 
+    </svg>  
+  
+</svg>
+
+
